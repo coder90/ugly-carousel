@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ugly Carousel jQuery plugin</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="jquery-1.8.2.min.js"></script>
+	<link href="uc/jquery-uc.css" rel="stylesheet">
+	<script src="uc/jquery-uc.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.carousel').uc({
+				showItems: 2,
+				itemWidth: 60,
+				itemHeight: 70,
+				prevButton: $('#prevButton'),
+				nextButton: $('#nextButton')
+			});
+		});
+	</script>
+</head>
+<body>
+<ul class="carousel">
+	<li>el 1</li>
+	<li>el 2</li>
+	<li>el 3</li>
+</ul>
+<div style="clear:both"></div>
+<input type="button" id="prevButton" value="prev"/>
+<input type="button" id="nextButton" value="next"/>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.carousel
+{
+	margin: 0px;
+	padding: 0px;
+	height: 70px;
+	overflow: hidden;
+	background: #cccccc;
+}
+
+.carousel li
+{
+	float: left;
+	padding: 0px;
+	list-style: none;
+	width: 50px;
+	height: 70px;
+	margin: 0 5px;
+	background: #555;
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+}

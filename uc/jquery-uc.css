@@ -1,0 +1,16 @@
+.uc-wrapper
+{
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+}
+
+.uc-slider
+{
+	position: absolute;
+	top: 0;
+}
+
+.uc-prev-disabled {}
+
+.uc-next-disabled {}
