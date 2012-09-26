@@ -20,3 +20,13 @@
 	font-size: 30px;
 	font-family: Arial;
 }
+
+.uc-wrapper
+{
+	background: #d1ffae;
+}
+
+.uc-prev-disabled, .uc-next-disabled
+{
+	visibility: hidden;
+}
